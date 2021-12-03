@@ -54,4 +54,4 @@ if not exists (select * FROM sys.tables where name = N'DOVIZKURLARI' and type = 
    select * FROM DOVIZKURLARI Where DATE_ = (SELECT MAX(DATE_) FROM DOVIZKURLARI WHERE DATE_ <= @TARIH)
 	END
 GO
-EXEC [DovizKurlari_MerkezBankASi] '2020-11-27'
+EXEC [DovizKurlari_MerkezBankASi] '2021-12-3'
